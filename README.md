@@ -9,7 +9,7 @@
 
 | № | Метод | Що робить |
 |---|-------|-----------|
-| 1 | `getOddIndexedNames(List<String>)` | Повертає рядок `1. Ivan, 3. Peter, ...` з іменами під непарними індексами |
+| 1 | `getOddIndexedNames(List<String>)` | Повертає рядок `1. Anna, 3. Olga, ...` з іменами під непарними індексами |
 | 2 | `toUpperCaseSortedDesc(List<String>)` | Переводить рядки у верхній регістр і сортує за спаданням (Z → A) |
 | 3 | `extractSortedNumbers(String[])` | `["1, 2, 0", "4, 5"]` → `"0, 1, 2, 4, 5"` |
 | 4 | `randomStream(seed, a, c, m)` | Нескінченний стрім лінійного конгруентного генератора через `Stream.iterate` |
